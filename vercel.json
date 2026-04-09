@@ -1,8 +1,8 @@
 {
   "crons": [
     {
-      "path": "/api/automation/run?secret=YOUR_CRON_SECRET_HERE",
-      "schedule": "*/2 * * * *"
+      "path": "/api/your-cron-endpoint",
+      "schedule": "0 9 * * *"
     }
   ]
 }
